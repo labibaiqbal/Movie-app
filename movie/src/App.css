@@ -19,7 +19,7 @@ body{
 .image-container{
     
   
-   max-width:55%; 
+   max-width:57%; 
 
   position:relative;
   transition: transform 0.2s;
@@ -41,12 +41,13 @@ body{
 .overlay{
   position:absolute;
   background: rgba(0,0,0,0.8);
-   width:60%; 
   transition:0.5s ease;
   opacity:0;
+ 
   bottom:0;
   font-size: 20px;
-  padding:20px;
+  padding: 20px 65px;
+  justify-content: center;
   text-align:center;
 
 }
